@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Network speed indicator</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="pref_hide_unit">Hide unit</string>
+    <string name="pref_force_unit">Force unit</string>
+    <string name="pref_hide_inactive">Hide when not downloading</string>
+    <string name="pref_hide_networktzpe">Hide network types</string>
+    
+    <string-array name="unit_entries">
+        <item>Auto</item>
+        <item>B/s</item>
+        <item>KB/s</item>
+        <item>MB/s</item>
+    </string-array>
+    <string-array name="unit_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="networktype_entries">
+        <item>Wi-Fi</item>
+        <item>Mobile</item>
+    </string-array>
+    <string-array name="networktype_values">
+        <item>WIFI</item>
+        <item>MOBILE</item>
+    </string-array>    
+</resources>

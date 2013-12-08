@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="Style" >
+        <CheckBoxPreference
+            android:defaultValue="0"
+            android:key="hide_unit"
+            android:title="@string/pref_hide_unit" />
+        <CheckBoxPreference
+            android:defaultValue="0"
+            android:key="hide_inactive"
+            android:title="@string/pref_hide_inactive" />
+
+        <ListPreference
+            android:defaultValue="0"
+            android:entries="@array/unit_entries"
+            android:entryValues="@array/unit_values"
+            android:key="force_unit"
+            android:title="@string/pref_force_unit" />
+
+        <MultiSelectListPreference
+            android:title="@string/pref_hide_networktzpe"
+            android:entries="@array/networktype_entries"
+            android:entryValues="@array/networktype_values"
+            android:key="hide_network_type" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
